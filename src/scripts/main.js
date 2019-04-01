@@ -1,21 +1,21 @@
-const createDoctor = function(name, specialty, address){
-    return {
-        "name": name,
-        "specialty": specialty,
-        "address": address
-    }
-}
+// const createDoctor = function(name, specialty, address){
+//     return {
+//         "name": name,
+//         "specialty": specialty,
+//         "address": address
+//     }
+// }
 
-const createPet = function(petName, petBreed){
-    return {
-    name: petName,
-    breed: petBreed
-    }
-}
+// const createPet = function(petName, petBreed){
+//     return {
+//     name: petName,
+//     breed: petBreed
+//     }
+// }
 
-console.log(createDoctor("Dr. Procter", "Proctologist", "555 Street"));
+// console.log(createDoctor("Dr. Procter", "Proctologist", "555 Street"));
 
-console.log(createPet("Sparky", "Corgi"));
+// console.log(createPet("Sparky", "Corgi"));
 
 //factory function for creating artist object.
 const createArtist = function(name, age, genre) {
